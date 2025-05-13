@@ -16,6 +16,7 @@ This project implements a programmable insulin pump using an ESP32 microcontroll
 - **Stepper Motor & Driver**: Precise insulin delivery mechanism
 - **Push Buttons (3)**: User input controls (Up, Down, Select)
 - **Power Supply**: Powering the system
+- **3D Printed Enclosure**: Custom designed housing (STL files included)
 
 ## Circuit Diagram
 
@@ -103,6 +104,15 @@ loop():
 - [Adafruit GFX Library](https://github.com/adafruit/Adafruit-GFX-Library)
 - [Adafruit SSD1306](https://github.com/adafruit/Adafruit_SSD1306)
 - [AccelStepper](https://www.airspayce.com/mikem/arduino/AccelStepper/)
+
+## 3D Printable Files
+
+The project includes STL files for 3D printing the custom enclosure:
+
+- **ip_body.stl**: Main body of the insulin pump enclosure
+- **ip_lid.stl**: Removable lid for easy access to internal components
+
+Print these files using PLA or PETG with at least 20% infill for durability. The design allows for easy assembly and access to internal components for maintenance.
 
 ## License
 
